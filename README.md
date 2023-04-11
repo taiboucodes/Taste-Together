@@ -14,7 +14,6 @@ POD 7 DESIGN - README Template
 Social media app that releases a weekly cooking challenge. Users then have the entire week to participate and post a picture, ingredients, and a general guideline on how to make the recipe. 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Social / Photos & Video
 - **Mobile:** Camera, Real time, Map
 - **Story:** The app makes it easy for people who enjoy cooking to connect with others who share this passion.
@@ -28,7 +27,6 @@ Social media app that releases a weekly cooking challenge. Users then have the e
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
 * User can create a new account
 * User can login
 * User can logout
@@ -43,7 +41,6 @@ Social media app that releases a weekly cooking challenge. Users then have the e
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
 * User can see a profile page with their photos
 * User can access map view with location of all their recipes so far pinpointed. 
 * Users can access polling screen to vote for next week's theme
