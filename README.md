@@ -15,7 +15,7 @@ Social media app that releases a weekly cooking challenge. Users then have the e
 
 ### App Evaluation
 - **Category:** Social / Photos & Video
-- **Mobile:** Camera, Real time, Map
+- **Mobile:** Camera, Real time
 - **Story:** The app makes it easy for people who enjoy cooking to connect with others who share this passion.
 - **Market:** Our market consists of anyone who has a phone and an interest in cooking. This could range from a middle aged mom sharing her one recipe a week to a group of friends, to a teen and their friends experimenting.  
 - **Habit:** App would be used by people once a week for posting, and then the rest of the time would be to interact with other users posts. The average user both creates and consumes, rather than just consume content. 
