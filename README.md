@@ -16,7 +16,7 @@ Social media app that releases a weekly cooking challenge. Users then have the e
 ### App Evaluation
 - **Category:** Social / Photos & Video
 - **Mobile:** Camera, Real time
-- **Story:** The app makes it easy for people who enjoy cooking to connect with others who share this passion.
+- **Story:** The app makes it easy for people who enjoy cooking to connect with others who share this passion. Can meet new people through love of cooking, as well as interact with those you already know.
 - **Market:** Our market consists of anyone who has a phone and an interest in cooking. This could range from a middle aged mom sharing her one recipe a week to a group of friends, to a teen and their friends experimenting.  
 - **Habit:** App would be used by people once a week for posting, and then the rest of the time would be to interact with other users posts. The average user both creates and consumes, rather than just consume content. 
 - **Scope:** The task at hand is achievable based on what we've learned these past 7 weeks. Our base model is simple but efficient and fully functional. If base is  implemented successfully, extra features are planned for experimentation. 
@@ -82,7 +82,6 @@ Social media app that releases a weekly cooking challenge. Users then have the e
     * Multiple screens are included within the post view.
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="https://github.com/taiboucodes/The-Tech-Titans/blob/0ee5eaab3fef7348efd53fb3b71d5b7afa4aaeeb/images/Wireframes/drawn_wireframe.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
