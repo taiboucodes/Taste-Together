@@ -82,7 +82,7 @@ Social media app that releases a weekly cooking challenge. Users then have the e
     * Multiple screens are included within the post view.
 
 ## Wireframes
-<img src="https://github.com/taiboucodes/The-Tech-Titans/blob/0ee5eaab3fef7348efd53fb3b71d5b7afa4aaeeb/images/Wireframes/drawn_wireframe.jpg" width=600>
+<img src="https://github.com/taiboucodes/Taste-Together/blob/9b7f30f1c7a96a0e371904a3e0eac2a74f63f13c/images/Wireframes/drawn.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://github.com/taiboucodes/The-Tech-Titans/blob/0ee5eaab3fef7348efd53fb3b71d5b7afa4aaeeb/images/Wireframes/digital_wireframe.png" width=600>
