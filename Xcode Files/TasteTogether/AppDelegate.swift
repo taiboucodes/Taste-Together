@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  BeRealP2
 //
-//  Created by Omar Madjitov on 04/01/23.
+//
+//
 //
 
 import UIKit
@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //   - App Settings tab -> Security & Keys -> App Keys -> applicationId + clientKey
         //   - App Settings tab -> App Management -> Parse API Address
         // https://github.com/parse-community/Parse-Swift/blob/main/ParseSwift.playground/Sources/Common.swift
-        ParseSwift.initialize(applicationId: "AHRWd6CWwbWk9SvvMXneuQFbKoT63kyfcW6CLxND",
-                              clientKey: "QPRuCshb2aLLWqbp9KEfpyx6yyGoRnQDtCu3I97l",
+        ParseSwift.initialize(applicationId: "5Vzw5XvQsAnjQ4WQSx4N5f9YUPsrO3a9GS3ZM2RI",
+                              clientKey: "uM5QdD6IMlJlbPLTjwwCYYfBgHgkBC3ff0SoLXI4",
                               serverURL: URL(string: "https://parseapi.back4app.com")!)
 
         // TODO: Pt 1: - Instantiate and save a test parse object to your server
