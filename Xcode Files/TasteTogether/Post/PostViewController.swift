@@ -20,6 +20,10 @@ class PostViewController: UIViewController {
     @IBOutlet weak var captionTextField: UITextField!
     @IBOutlet weak var previewImageView: UIImageView!
 
+    //New
+    @IBOutlet weak var ingredientsTextField: UITextField!
+    
+    
     private var pickedImage: UIImage?
 
     override func viewDidLoad() {
@@ -74,6 +78,9 @@ class PostViewController: UIViewController {
         // Set properties
         post.imageFile = imageFile
         post.caption = captionTextField.text
+        
+        //New
+        post.ingredients = ingredientsTextField.text
 
         // Set the user as the current user
         post.user = User.current

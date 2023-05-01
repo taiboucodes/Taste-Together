@@ -16,11 +16,35 @@ class PostCell: UITableViewCell {
     @IBOutlet private weak var captionLabel: UILabel!
     @IBOutlet private weak var dateLabel: UILabel!
 
+    //New
+    @IBOutlet weak var ingredientsLabel: UILabel!
+    
+    
     // Blur view to blur out "hidden" posts
     @IBOutlet private weak var blurView: UIVisualEffectView!
 
     private var imageDataRequest: DataRequest?
 
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Add tap gesture recognizer to ingredientsLabel
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        ingredientsLabel.isUserInteractionEnabled = true
+        ingredientsLabel.addGestureRecognizer(tapGesture)
+        ingredientsLabel.numberOfLines = 3 // Set the initial number of lines to show
+    }
+
+    @objc private func handleTap(_ gestureRecognizer: UITapGestureRecognizer) {
+        // Toggle the number of lines to show when the label is tapped
+        if ingredientsLabel.numberOfLines == 0 {
+            ingredientsLabel.numberOfLines = 0
+        } else {
+            ingredientsLabel.numberOfLines = 0
+        }
+        // Call layoutIfNeeded() to update the layout of the cell
+        contentView.layoutIfNeeded()
+    }
+    
     func configure(with post: Post) {
         // TODO: Pt 1 - Configure Post Cell
         // A lot of the following returns optional values so we'll unwrap them all together in one big `if let`
@@ -68,6 +92,9 @@ class PostCell: UITableViewCell {
 
         // Caption
         captionLabel.text = post.caption
+        
+        // Ingredients
+        ingredientsLabel.text = post.ingredients
 
         // Date
         if let date = post.createdAt {
@@ -89,4 +116,6 @@ class PostCell: UITableViewCell {
         // Cancel image request.
         imageDataRequest?.cancel()
     }
+    
+
 }
