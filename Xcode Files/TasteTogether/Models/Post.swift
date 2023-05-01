@@ -23,6 +23,9 @@ struct Post: ParseObject {
 
     // Your own custom properties.
     var caption: String?
+    var ingredients: String?
     var user: User?
     var imageFile: ParseFile?
 }
+
+
