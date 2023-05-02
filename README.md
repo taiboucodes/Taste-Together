@@ -7,7 +7,7 @@ POD 7 DESIGN - README Template
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
+2. [Demo](#Demo)
 
 ## Overview
 ### Description
@@ -86,3 +86,6 @@ Social media app that releases a weekly cooking challenge. Users then have the e
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://github.com/taiboucodes/The-Tech-Titans/blob/0ee5eaab3fef7348efd53fb3b71d5b7afa4aaeeb/images/Wireframes/digital_wireframe.png" width=600>
+
+## Demo
+
