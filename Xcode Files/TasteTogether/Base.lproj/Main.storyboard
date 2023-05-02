@@ -726,8 +726,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-hi-Nyd">
-                                <rect key="frame" x="36" y="535" width="321" height="20.333333333333371"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-hi-Nyd">
+                                <rect key="frame" x="36" y="535" width="321" height="234"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -745,6 +745,7 @@
                             <constraint firstItem="m6B-HV-GtM" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="hDi-Zx-Aqs"/>
                             <constraint firstItem="GjX-hi-Nyd" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="iPR-O3-blq"/>
                             <constraint firstItem="wzC-dO-gwM" firstAttribute="top" secondItem="m6B-HV-GtM" secondAttribute="bottom" constant="8" id="oH0-TY-Zod"/>
+                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="bottom" secondItem="h5I-mv-aKV" secondAttribute="bottom" id="q3d-Gg-gld"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ktg-K0-tor"/>
