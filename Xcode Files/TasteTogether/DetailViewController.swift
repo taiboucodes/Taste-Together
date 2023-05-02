@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
             Category.text = Recipes.strCategory
             Area.text = Recipes.strArea
             ImageView.image = Recipes.MealImage
-       //    Ingredients_outlet.text  = Recipes.strIngredients
+          Ingredients_outlet.text  = Recipes.strIngredients
             Instructions.text  = Recipes.strInstructions
             
         }
@@ -43,9 +43,9 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var Area: UILabel!
     
     
+    
+    
     @IBOutlet weak var Ingredients_outlet: UILabel!
-    
-    
     
     @IBOutlet weak var Instructions: UILabel!
     

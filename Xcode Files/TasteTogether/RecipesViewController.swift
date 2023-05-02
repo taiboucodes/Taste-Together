@@ -30,7 +30,7 @@ class RecipesViewController: UIViewController {
                   strArea: "Italian",
                   strInstructions: "Preheat the oven to 230°C. Add the sugar and crumble the fresh yeast into warm water. Allow the mixture to stand for 10 – 15 minutes in a warm place until froth develops on the surface. Sift the flour and salt into a large mixing bowl, make a well in the middle and pour in the yeast mixture and olive oil. Lightly flour your hands, and slowly mix the ingredients together until they bind. Generously dust your surface with flour. Throw down the dough and begin kneading for 10 minutes until smooth, silky and soft. Place in a lightly oiled, non-stick baking tray. Spread the tomato sauce on top making sure you go to the edge. Evenly place the mozzarella (or other cheese) on top, season with the oregano and black pepper, then drizzle with a little olive oil. Cook in the oven for 10 – 12 minutes until the cheese slightly colours. When ready, place the basil leaf on top and tuck in!",
                   
-                             MealImage: UIImage(named: "pilchard")!,
+                             MealImage: UIImage(named: "pizza")!,
                              strIngredients: "water, sugar, yeast, plain flour, salt, olive oil, tomato sauce, mozzarella, oregano, basil, black pepper")
           
     let alfredo =  Recipes(strMeal: "Chicken Alfredo Primavera",
@@ -54,7 +54,7 @@ class RecipesViewController: UIViewController {
                   strArea: "Italian",
                   strInstructions: "Cook the pasta following pack instructions. Heat the oil in a non-stick frying pan and cook the onion, garlic and chilli for 3-4 mins to soften. Stir in the tomato purée and cook for 1 min, then add the pilchards with their sauce. Cook, breaking up the fish with a wooden spoon, then add the olives and continue to cook for a few more mins. Drain the pasta and add to the pan with 2-3 tbsp of the cooking water. Toss everything together well, then divide between plates and serve, scattered with Parmesan.",
                   
-                               MealImage: UIImage(named: "pizza")!,
+                               MealImage: UIImage(named: "pilchard")!,
                                  strIngredients: "olive oil, onion, garlic, red chilli, tomato puree, pilchards, black olives, parmesan")
     
     
