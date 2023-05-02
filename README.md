@@ -88,6 +88,7 @@ Social media app that releases a weekly cooking challenge. Users then have the e
 <img src="https://github.com/taiboucodes/The-Tech-Titans/blob/0ee5eaab3fef7348efd53fb3b71d5b7afa4aaeeb/images/Wireframes/digital_wireframe.png" width=600>
 
 ### 4. Demo
+<img src="https://github.com/taiboucodes/Taste-Together/blob/1e16481576f7db2548666f46031d2ca08bc5ee93/FinalProjectDemoGIF.gif">
 
 * Link to the demo with sound on youtube: https://youtu.be/Xo1IBguGaoE
 
