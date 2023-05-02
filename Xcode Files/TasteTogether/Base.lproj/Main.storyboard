@@ -538,7 +538,7 @@
                                 <rect key="frame" x="43" y="160" width="307" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="penne 14-01-15-203" translatesAutoresizingMaskIntoConstraints="NO" id="aKm-tL-v53">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="penne" translatesAutoresizingMaskIntoConstraints="NO" id="aKm-tL-v53">
                                         <rect key="frame" x="-1" y="-11" width="100" height="123"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -560,7 +560,7 @@
                                 <rect key="frame" x="43" y="408" width="307" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chicken Alfredo 14-01-15-150" translatesAutoresizingMaskIntoConstraints="NO" id="xkI-Dq-1iF">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alfredo" translatesAutoresizingMaskIntoConstraints="NO" id="xkI-Dq-1iF">
                                         <rect key="frame" x="0.0" y="-11" width="100" height="123"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -582,7 +582,7 @@
                                 <rect key="frame" x="43" y="280" width="307" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pilchard 14-01-15-232" translatesAutoresizingMaskIntoConstraints="NO" id="qGt-82-2Li">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pilchard" translatesAutoresizingMaskIntoConstraints="NO" id="qGt-82-2Li">
                                         <rect key="frame" x="0.0" y="-11" width="100" height="123"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -611,7 +611,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="osso 14-01-15-185" translatesAutoresizingMaskIntoConstraints="NO" id="Jrp-cL-3h9">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="osso" translatesAutoresizingMaskIntoConstraints="NO" id="Jrp-cL-3h9">
                                         <rect key="frame" x="0.0" y="-11" width="100" height="123"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -633,7 +633,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pizza 14-01-15-251" translatesAutoresizingMaskIntoConstraints="NO" id="xHT-Ga-MJz">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="xHT-Ga-MJz">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="101"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -800,15 +800,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Chicken Alfredo 14-01-15-150" width="1374" height="1362"/>
         <image name="Signup_icon" width="580" height="516"/>
+        <image name="alfredo" width="1374" height="1362"/>
         <image name="camera" catalog="system" width="128" height="93"/>
-        <image name="osso 14-01-15-185" width="1378" height="1282"/>
-        <image name="penne 14-01-15-203" width="1380" height="1376"/>
+        <image name="osso" width="1378" height="1282"/>
+        <image name="penne" width="1380" height="1376"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="photo.artframe" catalog="system" width="128" height="93"/>
-        <image name="pilchard 14-01-15-232" width="1364" height="1296"/>
-        <image name="pizza 14-01-15-251" width="1352" height="1336"/>
+        <image name="pilchard" width="1364" height="1296"/>
+        <image name="pizza" width="1352" height="1336"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

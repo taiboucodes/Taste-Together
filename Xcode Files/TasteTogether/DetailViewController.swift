@@ -21,6 +21,7 @@ class DetailViewController: UIViewController {
             RecipeName.text = Recipes.strMeal
             Category.text = Recipes.strCategory
             Area.text = Recipes.strArea
+            ImageView.image = Recipes.MealImage
        //    Ingredients_outlet.text  = Recipes.strIngredients
             Instructions.text  = Recipes.strInstructions
             

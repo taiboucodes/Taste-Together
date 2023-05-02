@@ -15,7 +15,7 @@ struct Recipes {
     let strCategory: String
     let strArea: String
     let strInstructions: String
-   let MealImage: URL
+   let MealImage: UIImage
     let strIngredients: String
 
 }
