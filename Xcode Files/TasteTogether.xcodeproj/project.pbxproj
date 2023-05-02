@@ -24,6 +24,9 @@
 		CB7896FF29371C4900635932 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7896FE29371C4900635932 /* Post.swift */; };
 		CBCDFAFE291144DA001F1CF1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCDFAFD291144DA001F1CF1 /* PostViewController.swift */; };
 		CBE72850293741370005CA57 /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7284F293741370005CA57 /* ViewController+Extensions.swift */; };
+		D100A1FD2A00457D00784C44 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100A1FC2A00457D00784C44 /* Recipes.swift */; };
+		D100A1FF2A00482F00784C44 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100A1FE2A00482F00784C44 /* DetailViewController.swift */; };
+		D100A2012A004A2100784C44 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100A2002A004A2100784C44 /* RecipesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +36,7 @@
 		CB6997502911044D007EDA6B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CB6997522911354B007EDA6B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CB73D391290E3B4A00C12538 /* TasteTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB73D394290E3B4A00C12538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB73D394290E3B4A00C12538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		CB73D396290E3B4A00C12538 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB73D398290E3B4A00C12538 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CB73D39B290E3B4A00C12538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +47,9 @@
 		CB7896FE29371C4900635932 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CBCDFAFD291144DA001F1CF1 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		CBE7284F293741370005CA57 /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		D100A1FC2A00457D00784C44 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		D100A1FE2A00482F00784C44 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D100A2002A004A2100784C44 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 		CB73D388290E3B4A00C12538 = {
 			isa = PBXGroup;
 			children = (
+				D100A1FC2A00457D00784C44 /* Recipes.swift */,
 				CB73D393290E3B4A00C12538 /* TasteTogether */,
 				CB73D392290E3B4A00C12538 /* Products */,
 			);
@@ -129,6 +136,8 @@
 				CB13E51C2913A100008F45BB /* Post */,
 				CB13E5222913B119008F45BB /* Extensions */,
 				CB73D39A290E3B4A00C12538 /* Main.storyboard */,
+				D100A2002A004A2100784C44 /* RecipesViewController.swift */,
+				D100A1FE2A00482F00784C44 /* DetailViewController.swift */,
 				CB73D39D290E3B4C00C12538 /* Assets.xcassets */,
 				CB73D39F290E3B4C00C12538 /* LaunchScreen.storyboard */,
 				CB73D3A2290E3B4C00C12538 /* Info.plist */,
@@ -226,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D100A1FF2A00482F00784C44 /* DetailViewController.swift in Sources */,
 				CB13E51F2913A16C008F45BB /* PostCell.swift in Sources */,
 				CBCDFAFE291144DA001F1CF1 /* PostViewController.swift in Sources */,
 				CBE72850293741370005CA57 /* ViewController+Extensions.swift in Sources */,
@@ -233,6 +243,8 @@
 				CB73D395290E3B4A00C12538 /* AppDelegate.swift in Sources */,
 				CB6997532911354B007EDA6B /* FeedViewController.swift in Sources */,
 				CB7896FD29371C3C00635932 /* User.swift in Sources */,
+				D100A2012A004A2100784C44 /* RecipesViewController.swift in Sources */,
+				D100A1FD2A00457D00784C44 /* Recipes.swift in Sources */,
 				CB6997512911044D007EDA6B /* SignUpViewController.swift in Sources */,
 				CB13E5212913B10B008F45BB /* DateFormatter+Extensions.swift in Sources */,
 				CB73D397290E3B4A00C12538 /* SceneDelegate.swift in Sources */,

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hot-nK-RXH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hot-nK-RXH">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -528,18 +529,236 @@
         <!--Recipes-->
         <scene sceneID="9kT-Yg-Cpm">
             <objects>
-                <viewController id="M2N-x5-m5h" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MsQ-hz-l4T">
+                <viewController id="M2N-x5-m5h" customClass="RecipesViewController" customModule="TasteTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MsQ-hz-l4T" userLabel="main stack view">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Ig-bj-sDd" userLabel="First view">
+                                <rect key="frame" x="43" y="160" width="307" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="penne 14-01-15-203" translatesAutoresizingMaskIntoConstraints="NO" id="aKm-tL-v53">
+                                        <rect key="frame" x="-1" y="-11" width="100" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spicy Arrabiata Penne" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z57-0r-U0r">
+                                        <rect key="frame" x="107" y="36" width="192" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DWr-Ia-RQ3" appends="YES" id="lPa-RH-884"/>
+                                </connections>
+                            </view>
+                            <view tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WxB-cW-VVt" userLabel="third view">
+                                <rect key="frame" x="43" y="408" width="307" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chicken Alfredo 14-01-15-150" translatesAutoresizingMaskIntoConstraints="NO" id="xkI-Dq-1iF">
+                                        <rect key="frame" x="0.0" y="-11" width="100" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chicken Alfredo " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hh-jk-4q1">
+                                        <rect key="frame" x="107" y="36" width="192" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="DaR-V5-efi" appends="YES" id="hL2-XD-YBg"/>
+                                </connections>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJu-Za-dim" userLabel="second view">
+                                <rect key="frame" x="43" y="280" width="307" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pilchard 14-01-15-232" translatesAutoresizingMaskIntoConstraints="NO" id="qGt-82-2Li">
+                                        <rect key="frame" x="0.0" y="-11" width="100" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pilchard puttanesca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPn-C8-YNK">
+                                        <rect key="frame" x="107" y="36" width="192" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3aX-Kv-odY" appends="YES" id="Ywz-DZ-H5G"/>
+                                </connections>
+                            </view>
+                            <view tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MdR-UT-rOL" userLabel="fourth view">
+                                <rect key="frame" x="43" y="535" width="307" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Osso Buco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMw-Za-ei8">
+                                        <rect key="frame" x="107" y="36" width="192" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="osso 14-01-15-185" translatesAutoresizingMaskIntoConstraints="NO" id="Jrp-cL-3h9">
+                                        <rect key="frame" x="0.0" y="-11" width="100" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="tmh-bZ-G4Q" appends="YES" id="Pke-Ks-LGh"/>
+                                </connections>
+                            </view>
+                            <view tag="4" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEt-6C-qEn" userLabel="fifth view">
+                                <rect key="frame" x="43" y="668" width="307" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Margherita Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sL8-yd-ocS">
+                                        <rect key="frame" x="107" y="36" width="142" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pizza 14-01-15-251" translatesAutoresizingMaskIntoConstraints="NO" id="xHT-Ga-MJz">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Obo-we-5xC" appends="YES" id="mfh-an-ew0"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dKJ-Hy-bZu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Recipes" id="lT5-h5-n20"/>
+                    <connections>
+                        <segue destination="Bvi-sm-nEj" kind="show" identifier="detailSegue" id="z2y-nv-0to"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RgY-lK-JeG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Obo-we-5xC" userLabel="fifth tap"/>
+                <tapGestureRecognizer id="3aX-Kv-odY" userLabel="second tap">
+                    <connections>
+                        <action selector="tappedRecipe:" destination="M2N-x5-m5h" id="SSh-bx-Dvu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DWr-Ia-RQ3" userLabel="first tap gesture">
+                    <connections>
+                        <action selector="tappedRecipe:" destination="M2N-x5-m5h" id="2sJ-Yg-G0e"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="tmh-bZ-G4Q" userLabel="fourth tap">
+                    <connections>
+                        <action selector="tappedRecipe:" destination="M2N-x5-m5h" id="Da6-xz-7kX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="DaR-V5-efi" userLabel="third tap">
+                    <connections>
+                        <action selector="tappedRecipe:" destination="M2N-x5-m5h" id="4i2-ja-UIR"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3556.4885496183206" y="-2.1126760563380285"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="w16-5y-v2M">
+            <objects>
+                <viewController id="Bvi-sm-nEj" customClass="DetailViewController" customModule="TasteTogether" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UWM-46-FfD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="m6B-HV-GtM">
+                                <rect key="frame" x="36" y="103" width="321" height="302.66666666666669"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r9F-1w-AVr">
+                                        <rect key="frame" x="0.0" y="0.0" width="321" height="261"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="r9F-1w-AVr" secondAttribute="height" multiplier="107:87" id="BNl-I2-6qx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipe Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwM-GP-LmK">
+                                        <rect key="frame" x="0.0" y="269" width="160.66666666666666" height="33.666666666666686"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="wzC-dO-gwM">
+                                <rect key="frame" x="36" y="413.66666666666669" width="321" height="73"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMm-WJ-sd1">
+                                        <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THp-KS-rIA">
+                                        <rect key="frame" x="0.0" y="26.333333333333314" width="35.333333333333336" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjB-zz-jAB">
+                                        <rect key="frame" x="0.0" y="52.666666666666629" width="85.333333333333329" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-hi-Nyd">
+                                <rect key="frame" x="36" y="535" width="321" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h5I-mv-aKV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="top" secondItem="wzC-dO-gwM" secondAttribute="bottom" constant="48.329999999999998" id="0ty-hL-5KO"/>
+                            <constraint firstItem="m6B-HV-GtM" firstAttribute="top" secondItem="h5I-mv-aKV" secondAttribute="top" id="4G4-zc-UqQ"/>
+                            <constraint firstItem="h5I-mv-aKV" firstAttribute="trailing" secondItem="m6B-HV-GtM" secondAttribute="trailing" constant="36" id="Klv-JO-lDM"/>
+                            <constraint firstItem="h5I-mv-aKV" firstAttribute="trailing" secondItem="GjX-hi-Nyd" secondAttribute="trailing" constant="36" id="Map-CP-Xxc"/>
+                            <constraint firstItem="wzC-dO-gwM" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="cLp-BF-TEz"/>
+                            <constraint firstItem="h5I-mv-aKV" firstAttribute="trailing" secondItem="wzC-dO-gwM" secondAttribute="trailing" constant="36" id="dFe-3R-Ls2"/>
+                            <constraint firstItem="m6B-HV-GtM" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="hDi-Zx-Aqs"/>
+                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="iPR-O3-blq"/>
+                            <constraint firstItem="wzC-dO-gwM" firstAttribute="top" secondItem="m6B-HV-GtM" secondAttribute="bottom" constant="8" id="oH0-TY-Zod"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ktg-K0-tor"/>
+                    <connections>
+                        <outlet property="Area" destination="THp-KS-rIA" id="YWV-0f-URG"/>
+                        <outlet property="Category" destination="KMm-WJ-sd1" id="oFA-mK-ppO"/>
+                        <outlet property="ImageView" destination="r9F-1w-AVr" id="we6-zo-lfO"/>
+                        <outlet property="Instructions" destination="GjX-hi-Nyd" id="Cl9-sH-o1P"/>
+                        <outlet property="RecipeName" destination="wwM-GP-LmK" id="aNw-g5-4kF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LGo-NU-QgU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4446.5648854961828" y="-3.5211267605633805"/>
         </scene>
         <!--Item-->
         <scene sceneID="qMb-Je-sQ2">
@@ -581,10 +800,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chicken Alfredo 14-01-15-150" width="1374" height="1362"/>
         <image name="Signup_icon" width="580" height="516"/>
         <image name="camera" catalog="system" width="128" height="93"/>
+        <image name="osso 14-01-15-185" width="1378" height="1282"/>
+        <image name="penne 14-01-15-203" width="1380" height="1376"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="photo.artframe" catalog="system" width="128" height="93"/>
+        <image name="pilchard 14-01-15-232" width="1364" height="1296"/>
+        <image name="pizza 14-01-15-251" width="1352" height="1336"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -597,6 +821,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
