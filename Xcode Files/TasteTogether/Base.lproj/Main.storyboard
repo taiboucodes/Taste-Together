@@ -760,6 +760,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ktg-K0-tor"/>
+                    <size key="freeformSize" width="393" height="852"/>
                     <connections>
                         <outlet property="Area" destination="THp-KS-rIA" id="YWV-0f-URG"/>
                         <outlet property="Category" destination="KMm-WJ-sd1" id="oFA-mK-ppO"/>
