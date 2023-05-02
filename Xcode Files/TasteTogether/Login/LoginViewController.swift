@@ -1,6 +1,6 @@
 //
 //  LoginViewController.swift
-//  BeRealP2
+
 //
 //  Created by Omar Madjitov on 04/01/23.
 //
@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func onLoginTapped(_ sender: Any) {
 
-        // Make sure all fields are non-nil and non-empty.
+       
         guard let username = usernameField.text,
               let password = passwordField.text,
               !username.isEmpty,
@@ -31,7 +31,7 @@ class LoginViewController: UIViewController {
             return
         }
 
-        // TODO: Pt 1 - Log in the parse user
+ 
         User.login(username: username, password: password) { [weak self] result in
 
             switch result {

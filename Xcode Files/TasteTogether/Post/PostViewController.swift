@@ -1,16 +1,16 @@
 //
 //  PostViewController.swift
-//  BeRealP2
+
 //
 //  Created by Omar Madjitov on 04/01/23.
 //
 
 import UIKit
 
-// TODO: Pt 1 - Import Photos UI
+
 import PhotosUI
 
-// TODO: Pt 1 - Import Parse Swift
+
 import ParseSwift
 
 class PostViewController: UIViewController {
@@ -31,7 +31,7 @@ class PostViewController: UIViewController {
     }
 
     @IBAction func onPickedImageTapped(_ sender: UIBarButtonItem) {
-        // TODO: Pt 1 - Present Image picker
+    
         // Create and configure PHPickerViewController
 
         // Create a configuration object
@@ -60,7 +60,7 @@ class PostViewController: UIViewController {
         // Dismiss Keyboard
         view.endEditing(true)
 
-        // TODO: Pt 1 - Create and save Post
+  
         
         // Unwrap optional pickedImage
         guard let image = pickedImage,
@@ -94,7 +94,7 @@ class PostViewController: UIViewController {
                 case .success(let post):
                     print("✅ Post Saved! \(post)")
 
-                    // TODO: Pt 2 - Update user's last posted date
+                    
                     // Get the current user
                     if var currentUser = User.current {
 
@@ -127,7 +127,7 @@ class PostViewController: UIViewController {
     }
 
     @IBAction func onTakePhotoTapped(_ sender: Any) {
-        // TODO: Pt 2 - Present camera
+       
         // Make sure the user's camera is available
         // NOTE: Camera only available on physical iOS device, not available on simulator.
         guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
@@ -160,7 +160,7 @@ class PostViewController: UIViewController {
     }
 }
 
-// TODO: Pt 1 - Add PHPickerViewController delegate and handle picked image.
+
 extension PostViewController: PHPickerViewControllerDelegate {
 
     // PHPickerViewController required delegate method.
@@ -204,7 +204,6 @@ extension PostViewController: PHPickerViewControllerDelegate {
     }
 }
 
-// TODO: Pt 2 - Add UIImagePickerControllerDelegate + UINavigationControllerDelegate
 extension PostViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     // Delegate method that's called when user finishes picking image (photo library or camera)

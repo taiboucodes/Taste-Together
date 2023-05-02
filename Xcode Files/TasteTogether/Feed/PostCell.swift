@@ -1,6 +1,5 @@
 //
 //  PostCell.swift
-//  BeRealP2
 //
 //  Created by Omar Madjitov on 04/01/23.
 //
@@ -46,7 +45,6 @@ class PostCell: UITableViewCell {
     }
     
     func configure(with post: Post) {
-        // TODO: Pt 1 - Configure Post Cell
         // A lot of the following returns optional values so we'll unwrap them all together in one big `if let`
         // Get the current user.
         if let currentUser = User.current,
@@ -101,7 +99,6 @@ class PostCell: UITableViewCell {
             dateLabel.text = DateFormatter.postFormatter.string(from: date)
         }
 
-        // TODO: Pt 2 - Show/hide blur view
 
 
     }
