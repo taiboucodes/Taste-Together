@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hot-nK-RXH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hot-nK-RXH">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -691,7 +690,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="m6B-HV-GtM">
-                                <rect key="frame" x="36" y="103" width="321" height="302.66666666666669"/>
+                                <rect key="frame" x="36" y="103" width="321" height="309"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r9F-1w-AVr">
                                         <rect key="frame" x="0.0" y="0.0" width="321" height="261"/>
@@ -700,15 +699,15 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipe Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwM-GP-LmK">
-                                        <rect key="frame" x="0.0" y="269" width="160.66666666666666" height="33.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="269" width="160.66666666666666" height="40"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="wzC-dO-gwM">
-                                <rect key="frame" x="36" y="413.66666666666669" width="321" height="73"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="wzC-dO-gwM">
+                                <rect key="frame" x="36" y="420" width="321" height="107"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMm-WJ-sd1">
                                         <rect key="frame" x="0.0" y="0.0" width="70.333333333333329" height="20.333333333333332"/>
@@ -717,21 +716,24 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THp-KS-rIA">
-                                        <rect key="frame" x="0.0" y="26.333333333333314" width="35.333333333333336" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="43.333333333333314" width="35.333333333333336" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjB-zz-jAB">
-                                        <rect key="frame" x="0.0" y="52.666666666666629" width="85.333333333333329" height="20.333333333333329"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjB-zz-jAB">
+                                        <rect key="frame" x="0.0" y="86.666666666666686" width="85.333333333333329" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-hi-Nyd">
-                                <rect key="frame" x="36" y="535" width="321" height="20.333333333333371"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GjX-hi-Nyd">
+                                <rect key="frame" x="36" y="535" width="321" height="234"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="234" id="I1U-MC-gdm"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -740,15 +742,16 @@
                         <viewLayoutGuide key="safeArea" id="h5I-mv-aKV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="top" secondItem="wzC-dO-gwM" secondAttribute="bottom" constant="48.329999999999998" id="0ty-hL-5KO"/>
                             <constraint firstItem="m6B-HV-GtM" firstAttribute="top" secondItem="h5I-mv-aKV" secondAttribute="top" id="4G4-zc-UqQ"/>
+                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="trailing" secondItem="wzC-dO-gwM" secondAttribute="trailing" id="Dk8-y4-WOP"/>
+                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="top" secondItem="wzC-dO-gwM" secondAttribute="bottom" constant="8" id="KDX-vF-ESM"/>
                             <constraint firstItem="h5I-mv-aKV" firstAttribute="trailing" secondItem="m6B-HV-GtM" secondAttribute="trailing" constant="36" id="Klv-JO-lDM"/>
-                            <constraint firstItem="h5I-mv-aKV" firstAttribute="trailing" secondItem="GjX-hi-Nyd" secondAttribute="trailing" constant="36" id="Map-CP-Xxc"/>
+                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="bottom" secondItem="h5I-mv-aKV" secondAttribute="bottom" id="TfA-mM-Zg9"/>
                             <constraint firstItem="wzC-dO-gwM" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="cLp-BF-TEz"/>
                             <constraint firstItem="h5I-mv-aKV" firstAttribute="trailing" secondItem="wzC-dO-gwM" secondAttribute="trailing" constant="36" id="dFe-3R-Ls2"/>
                             <constraint firstItem="m6B-HV-GtM" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="hDi-Zx-Aqs"/>
-                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="leading" secondItem="h5I-mv-aKV" secondAttribute="leading" constant="36" id="iPR-O3-blq"/>
                             <constraint firstItem="wzC-dO-gwM" firstAttribute="top" secondItem="m6B-HV-GtM" secondAttribute="bottom" constant="8" id="oH0-TY-Zod"/>
+                            <constraint firstItem="GjX-hi-Nyd" firstAttribute="leading" secondItem="wzC-dO-gwM" secondAttribute="leading" id="xzM-cJ-Rd6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ktg-K0-tor"/>
