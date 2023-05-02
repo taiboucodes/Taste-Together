@@ -89,3 +89,5 @@ Social media app that releases a weekly cooking challenge. Users then have the e
 
 ## Demo
 
+Link to the demo with sound on youtube: https://youtu.be/Xo1IBguGaoE
+
