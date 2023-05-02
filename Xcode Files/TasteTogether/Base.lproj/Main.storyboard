@@ -705,6 +705,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="r9F-1w-AVr" firstAttribute="top" secondItem="m6B-HV-GtM" secondAttribute="top" id="4tl-DN-jFF"/>
+                                    <constraint firstItem="r9F-1w-AVr" firstAttribute="leading" secondItem="m6B-HV-GtM" secondAttribute="leading" id="OeD-Rn-e9x"/>
+                                    <constraint firstAttribute="trailing" secondItem="r9F-1w-AVr" secondAttribute="trailing" id="rQS-5S-jol"/>
+                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="wzC-dO-gwM">
                                 <rect key="frame" x="36" y="420" width="321" height="107"/>
